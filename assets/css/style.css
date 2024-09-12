@@ -1,0 +1,127 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #012A36;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* border-top: 5px solid red; */
+    border-bottom: 5px solid purple;
+}
+
+nav .logo h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/* Main Container */
+.container {
+    padding: 40px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+/* Centered content on the homepage */
+.center {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.center img {
+    width: 150px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.center h2 {
+    font-size: 1.17em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.center p {
+    font-size: 1.17em;
+    margin-bottom: 20px;
+}
+
+/* Product Table */
+table {
+    width: 50%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #012A36;
+    color: #FFA726;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #012A36;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    background-color: #FF6F00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #ffa726;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    /* margin-top: 50px; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #012A36;
+    color: white;
+}
