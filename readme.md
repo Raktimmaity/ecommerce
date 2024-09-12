@@ -42,9 +42,13 @@ You can remove from cart options
 <br>
 If the cart list is empty
 
-### Proceed to payment
-![App Screenshot](./assets/img/proceed.png.png)
 
 ## Authors
 
 - [Raktim Maity](https://github.com/Raktimmaity)
+
+## Webisite
+[Portfolio](https://raktimmaity.000.pe/)
+
+## Feedback
+Give me feedback, [Feedback Link](https://raktimmaity.000.pe/testimonial/)
