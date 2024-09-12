@@ -47,7 +47,7 @@ If the cart list is empty
 
 - [Raktim Maity](https://github.com/Raktimmaity)
 
-## Webisite
+## Website
 [Portfolio](https://raktimmaity.000.pe/)
 
 ## Feedback
